@@ -1,0 +1,40 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bicis Locas</title>
+  </head>
+  <body>
+    <form id="form1"> 
+      <h2>Bicis Locas</h2>
+      <div>
+          <label for="name">Nombre</label>
+          <input type="text" id="name" placeholder="Ingrese su nombre" required>
+      </div>
+      <div>
+          <label for="lastname">Apellido</label>
+          <input type="text" id="lastname" placeholder="Ingrese su apellido" required>
+      </div>
+      <div>
+          <label for="inputEmail">Correo Electrónico</label>
+          <input type="email" id="input-email" placeholder="Ingrese su correo electrónico" required>
+      </div>
+      <div>
+          <label for="inputPassword">Contraseña</label>
+          <input type="password" id="input-password" pattern=".{6,}" title="Debe contener 6 o más caracteres" placeholder="Ingrese su contraseña" required>
+      </div>
+      <div>
+          <select id="select">
+              <option selected="selected">Selecciona tu tipo de bici</option>
+              <option value="urbana">Urbana</option>
+              <option value="treking">Treking</option>
+              <option value="electrica">Eléctrica</option>
+              <option value="estatica">Estática</option>
+          </select>
+      </div>
+      <button type="button">Registrar</button>
+    </form>
+    <script type='text/javascript' src='script.js'></script>
+  </body>
+</html>
